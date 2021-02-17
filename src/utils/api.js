@@ -1,8 +1,5 @@
 import axios from "axios";
 
-const clientId = "d946e0ce2f9322b44a11";
-const clientSecret = "59eed1b53d1bc6d36dcd8d183f3f62eea41be722";
-const params = `?client_id=${clientId}&client_secret=${clientSecret}`;
 const token = "732f25f0858c15ffff2e217f6deb9ada862df4c3";
 
 async function getProfile(username) {
